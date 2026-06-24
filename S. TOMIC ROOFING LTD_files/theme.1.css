@@ -338,7 +338,7 @@ pre code {
   outline: 2px solid #e54b21;
 }
 ::selection {
-  background: #0aa194;
+  background: #00A1DA;
   color: #f8f1e4;
   text-shadow: none;
 }
@@ -568,7 +568,7 @@ a.uk-link-reset {
   display: inline-block;
   width: 100px;
   max-width: 100%;
-  border-top: 6px solid #00c0a8;
+  border-top: 6px solid #00A1DA;
   vertical-align: top;
 }
 .uk-divider-vertical {
@@ -898,6 +898,7 @@ button.uk-icon:not(:disabled) {
 .uk-icon-link:hover {
   color: #001d34;
 }
+
 .uk-active > .uk-icon-link,
 .uk-icon-link:active {
   color: #000f1a;
@@ -907,7 +908,7 @@ button.uk-icon:not(:disabled) {
   width: 36px;
   height: 36px;
   border-radius: 500px;
-  background: #00c0a8;
+  background: #00A1DA;
   color: #001d34;
   vertical-align: middle;
   display: inline-flex;
@@ -1402,20 +1403,20 @@ select.uk-form-width-xsmall {
   box-shadow: 1px 1px 0 0 transparent;
 }
 .uk-button-secondary {
-  background-color: #00c0a7;
-  color: #001d34;
+  background-color: #00A1DA;
+  color: #f9fafa;
   border-bottom: 1px solid transparent;
   box-shadow: 0 3px 0 0 #fff;
 }
 .uk-button-secondary:hover {
-  background-color: #0aa194;
+  background-color: #00A1DA;
   color: #001d34;
   border-bottom-color: transparent;
   box-shadow: 0 4px 0 0 #fff;
 }
 .uk-button-secondary.uk-active,
 .uk-button-secondary:active {
-  background-color: #0aa194;
+  background-color: #00A1DA;
   color: #001d34;
   border-bottom-color: #fff;
   box-shadow: 1px 1px 0 0 transparent;
@@ -1464,7 +1465,7 @@ select.uk-form-width-xsmall {
   line-height: 22px;
   background: 0 0;
   color: #e54b21;
-  border-bottom: 3px solid #00c0a8;
+  border-bottom: 3px solid #00A1DA;
   border-radius: 0;
 }
 .uk-button-text:hover {
@@ -5406,7 +5407,7 @@ ul.uk-nav-sub {
   color: #e54b21 !important;
 }
 .uk-text-success {
-  color: #00c0a7 !important;
+  color: #00A1DA !important;
 }
 .uk-text-warning {
   color: #ea7041 !important;
@@ -11113,7 +11114,7 @@ body {
   width: 100% !important;
 }
 .gform_wrapper .gform_footer input:hover {
-  background-color: #0aa194 !important;
+  background-color: #00A1DA !important;
   color: #001c34 !important;
 }
 .gform_heading {
@@ -11182,7 +11183,7 @@ body {
 @media (min-width: 960px) {
   .uk-navbar-item.uk-logo img {
     height: auto;
-    width: 250px;
+    width: 100px;
   }
 }
 .uk-offcanvas-bar {
